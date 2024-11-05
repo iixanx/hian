@@ -181,10 +181,10 @@ export default function MainPage() {
             return (
               <div>
                 {arr.map((e) => {
-                  if(e) {
+                  if (e) {
                     return (
                       <Card image={e.image} title={e.title} price={e.price} />
-                    )
+                    );
                   }
                 })}
               </div>
