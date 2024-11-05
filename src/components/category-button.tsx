@@ -22,7 +22,9 @@ const CategoryButton = ({ ...props }: IButton) => {
 const ButtonStyle = styled.button<IButton>`
   width: 48px;
   height: 48px;
-  background-color: grey;
+  border-radius: 16px;
+  border: 0;
+  /* background-color: grey; */
 `;
 
 export default CategoryButton;

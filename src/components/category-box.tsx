@@ -29,6 +29,7 @@ const Box = styled.div`
   width: 64px;
   height: 64px;
   border: 1px solid black;
+  border-radius: 24px;
 `;
 
 export default CategoryBox;

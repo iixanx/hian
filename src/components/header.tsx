@@ -8,7 +8,11 @@ interface HeaderProps {
 const Header = () => {
   return (
     <HeaderStyle>
-      {/* 로고 / 사이트 제목 */}
+      <h1 style={{
+        margin: 0,
+        color: "white",
+      }}
+      >Hian</h1>
       <CategoryStyle>
         <p>상점</p>
         <p>상품 등록</p>
@@ -31,14 +35,16 @@ const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 1px solid black;
+  border-radius: 0 0 12px 12px;
+  background-color: #5D6E67;
 `;
 
 const CategoryStyle = styled.div`
-  width: 100%;
+  width: 30%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
 `;
 
 export default Header;
